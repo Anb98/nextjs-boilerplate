@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@root/*"      : ["*"],
+			"@components/*": ["components/*"],
+			"@config/*"    : ["config/*"],
+			"@helpers/*"   : ["helpers/*"],
+			"@hooks/*"     : ["hooks/*"],
+			"@layout/*"    : ["layout/*"],
+			"@actions/*"   : ["store/actions/*"],
+		}
+	},
+	"exclude": ["node_modules", "out"]
+}
