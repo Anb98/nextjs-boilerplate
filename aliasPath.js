@@ -1,9 +1,10 @@
 module.exports = {
-	'@root'      : '.',
+	'@root': '.',
 	'@components': './components',
-	'@config'    : './config/',
-	'@helpers'   : './helpers',
-	'@hooks'     : './hooks',
-	'@layout'    : './layout',
-	'@actions'   : './store/actions',
+	'@config': './config/',
+	'@helpers': './helpers',
+	'@hooks': './hooks',
+	'@layout': './layout',
+	'@actions': './store/actions',
+	'@images': './public/images'
 };

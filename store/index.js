@@ -1,7 +1,9 @@
-// ROOT REDUCER
 import { combineReducers } from 'redux';
+
 import ejemplo from './reducers/ejemplo.reducer';
 
-export default combineReducers({
+const rootReducer = combineReducers({
 	ejemplo
 });
+
+export default rootReducer;
