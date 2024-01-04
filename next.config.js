@@ -1,8 +1,4 @@
-module.exports = {
-	trailingSlash: true, // evita error 404
-	exportPathMap() {
-		return {
-			'/': { page: '/' }
-		};
-	}
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+module.exports = nextConfig;
