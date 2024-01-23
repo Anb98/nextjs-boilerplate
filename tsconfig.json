@@ -19,6 +19,7 @@
       }
     ],
     "paths": {
+      "types/*": ["./src/types/*"],
       "@actions/*": ["./src/actions/*"],
       "@assets/*": ["./src/assets/*"],
       "@config/*": ["./src/config/*"],

@@ -11,8 +11,7 @@ module.exports = {
   printWidth: 120,
   semi: false,
   importOrder: [
-    '^react',
-    '^next/(.*)$',
+    '(^react$|^next/(.*)$)',
     '<THIRD_PARTY_MODULES>',
     '^@config/(.*)$',
     '^@utils/(.*)$',
@@ -23,4 +22,4 @@ module.exports = {
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   plugins: ['@trivago/prettier-plugin-sort-imports']
-};
+}

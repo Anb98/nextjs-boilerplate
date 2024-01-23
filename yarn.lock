@@ -1897,30 +1897,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"frontend-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "frontend-template@workspace:."
-  dependencies:
-    "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
-    "@types/node": "npm:^20"
-    "@types/react": "npm:^18"
-    "@types/react-dom": "npm:^18"
-    "@typescript-eslint/eslint-plugin": "npm:^6.17.0"
-    "@typescript-eslint/parser": "npm:^6.17.0"
-    autoprefixer: "npm:^10.0.1"
-    eslint: "npm:^8"
-    eslint-config-next: "npm:14.0.4"
-    eslint-plugin-unused-imports: "npm:^3.0.0"
-    next: "npm:14.0.4"
-    postcss: "npm:^8"
-    prettier: "npm:2.8.4"
-    react: "npm:^18"
-    react-dom: "npm:^18"
-    tailwindcss: "npm:^3.3.0"
-    typescript: "npm:^5"
-  languageName: unknown
-  linkType: soft
-
 "fs-minipass@npm:^2.0.0":
   version: 2.1.0
   resolution: "fs-minipass@npm:2.1.0"
@@ -3050,6 +3026,30 @@ __metadata:
   checksum: e6c829fd473d8c3605b2b62d15e1bf41e9d90cf59a2c213b4adeadff2846999bc9a653ffef18f6aa13cc9f5d6de02469c222acf5a4184901a4690a4504bd468f
   languageName: node
   linkType: hard
+
+"nextjs-boilerplate@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "nextjs-boilerplate@workspace:."
+  dependencies:
+    "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    "@typescript-eslint/eslint-plugin": "npm:^6.17.0"
+    "@typescript-eslint/parser": "npm:^6.17.0"
+    autoprefixer: "npm:^10.0.1"
+    eslint: "npm:^8"
+    eslint-config-next: "npm:14.0.4"
+    eslint-plugin-unused-imports: "npm:^3.0.0"
+    next: "npm:14.0.4"
+    postcss: "npm:^8"
+    prettier: "npm:2.8.4"
+    react: "npm:^18"
+    react-dom: "npm:^18"
+    tailwindcss: "npm:^3.3.0"
+    typescript: "npm:^5"
+  languageName: unknown
+  linkType: soft
 
 "node-gyp@npm:latest":
   version: 10.0.1
