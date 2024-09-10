@@ -1,7 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
   "plugins": ["unused-imports", "@typescript-eslint/eslint-plugin"],
-  "extends": ["next/core-web-vitals"],
+  "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
     "arrow-body-style": ["error", "as-needed"],
     "no-console": "warn",
